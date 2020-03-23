@@ -18,9 +18,4 @@ post '/newteam' do
     
     erb :team
 end
-
-post '/team' do
-    erb :team
-  end
-
 end
