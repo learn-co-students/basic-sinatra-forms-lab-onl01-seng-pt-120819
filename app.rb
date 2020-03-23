@@ -20,7 +20,6 @@ post '/newteam' do
 end
 
 post '/team' do
-    @team = team
     erb :team
   end
 
